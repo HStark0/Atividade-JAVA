@@ -1,4 +1,5 @@
 // Exercício 2: Sistema de Figuras Geométricas
+// Christian Sangalli
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -15,7 +16,6 @@ interface FiguraPlana {
 interface FiguraEspacial {
     double calcularVolume();
 }
-
 
 class Retangulo extends Figura implements FiguraPlana {
     private double largura;
